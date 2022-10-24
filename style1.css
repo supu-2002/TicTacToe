@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.heading{
+    background-image:url(pic3.jpg);
+    color: whitesmoke;
+    height: 60px;
+    font-size:40px;
+    font-family: "Trirong", serif;
+    
+}
+.text
+{
+    padding-top: 3px;
+}
+body{
+    background-image: url(pic4.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+.text1
+{
+    color:rgb(15, 52, 114);
+}
+.Info
+{
+    padding-left: 2px;
+    color: rgb(50, 20, 186);
+    font-size:25px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+
+}
+.gameinfo1
+{
+    margin-top: 10px;
+
+}
+#reset
+{
+    margin-left: 15px;
+    padding: 10px 10px 10px 10px;
+    font-size:20px;
+    background-image: url(pic6.jpg);
+    color: rgb(5, 95, 213);
+    border-radius: 0.5px;
+    border-style:inherit;
+    border-color: rgb(56, 131, 231);
+    font-family:"Trirong", serif; 
+    border-radius: 12px;
+}
+.box{
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+}
+.cell{
+    border: 2px solid black;
+    font-size: 7vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cell:hover{
+    background-color: rgb(157, 196, 255);
+}
+.br-0{
+    border-right: 0;
+ }
+ .bl-0{
+     border-left: 0;
+ }
+ .bt-0{
+     border-top: 0;
+ }
+ .bb-0{
+     border-bottom: 0;
+  }
+.img1
+{
+    /* padding-top:10px; */
+    width:150px;
+    height:190px;
+    border-style: inherit;
+    border-radius: 14px;
+}
+.imgbox
+{
+    margin-top: 20px;
+}
